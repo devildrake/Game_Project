@@ -1,6 +1,6 @@
 #include <SDL\SDL.h>
 #include <SDL\SDL_image.h>
-
+//WHAT THE FUCK IS GOING OOOOOOOOON
 int main(int, char*[]) {
 	try {
 		//INIT
