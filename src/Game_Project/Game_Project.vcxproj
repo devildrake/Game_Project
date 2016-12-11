@@ -18,9 +18,47 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Assert.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Color.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaDificil.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaFacil.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaMedio.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameEngine.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameScene.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Grid.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GUI.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\ID.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\InputManager.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\IOManager.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Logger.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\mainMenu.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Renderer.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Resource.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Scene.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\SceneManager.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Sprite.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\System.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\TimeManager.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Transform.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Window.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj" />
+    <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj.filters" />
+    <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj.user" />
+    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj" />
+    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj.filters" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\JODER\GameScene.cc" />
+    <ClCompile Include="..\..\..\..\..\Desktop\JODER\Grid.cc" />
+    <ClCompile Include="..\..\..\..\..\Desktop\JODER\main.cc" />
+    <ClCompile Include="..\..\..\..\..\Desktop\JODER\mainMenu.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{02A86831-C330-4875-A4AB-7E131F737060}</ProjectGuid>
-    <RootNamespace>ProjectTry</RootNamespace>
+    <ProjectGuid>{A425A1CB-F148-4A71-BBCF-EB283D235BC4}</ProjectGuid>
+    <RootNamespace>Game_Project</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -113,8 +151,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
