@@ -19,43 +19,41 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Assert.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Color.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameEngine.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Grid.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GUI.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\ID.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\InputManager.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\IOManager.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Logger.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\mainMenu.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Renderer.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Resource.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Scene.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\SceneManager.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Sprite.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\System.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\TimeManager.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Transform.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Window.hh" />
-    <ClInclude Include="EscenaDificil.hh" />
-    <ClInclude Include="EscenaFacil.hh" />
-    <ClInclude Include="EscenaMedio.hh" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Assert.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Color.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Dificil.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Facil.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\GameEngine.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Grid.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\ID.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\InputManager.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\IOManager.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\LevelScene.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Logger.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\MainMenu.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Medio.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Renderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Resource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Scene.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\SceneManager.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Snake.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Sprites.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\TimeManager.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Transform.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj" />
-    <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj.filters" />
-    <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj.user" />
-    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj" />
-    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj.filters" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Dificil.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Facil.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Grid.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\LevelScene.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\MainMenu.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Medio.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\JODER\Grid.cc" />
-    <ClCompile Include="..\..\..\..\..\Desktop\JODER\main.cc" />
-    <ClCompile Include="..\..\..\..\..\Desktop\JODER\mainMenu.cpp" />
-    <ClCompile Include="EscenaDificil.cpp" />
-    <ClCompile Include="EscenaFacil.cpp" />
-    <ClCompile Include="EscenaMedio.cpp" />
+    <Xml Include="..\..\..\..\..\Desktop\Snake2.0-20161211T185152Z\Snake2.0\src\Snake_AnnaPonce_JoanLopez\XMLFile.xml" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A425A1CB-F148-4A71-BBCF-EB283D235BC4}</ProjectGuid>

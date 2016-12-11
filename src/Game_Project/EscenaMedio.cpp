@@ -6,7 +6,7 @@
 using namespace Logger;
 
 EscenaMedio::EscenaMedio() {
-	background = { { 0,0,W.GetWidth(),W.GetHeight() },ObjectID::BG_00 };
+	//background = { { 0,0,W.GetWidth(),W.GetHeight() },ObjectID::BG_00 };
 
 }
 
