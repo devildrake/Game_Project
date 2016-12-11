@@ -15,77 +15,83 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Window.hh">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Assert.hh">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Window.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Color.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaDificil.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaFacil.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaMedio.hh">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameEngine.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameScene.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Grid.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\GUI.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\ID.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\InputManager.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\IOManager.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Logger.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\mainMenu.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Renderer.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Resource.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Scene.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\SceneManager.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Sprite.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\System.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\TimeManager.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Transform.hh">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameEngine.hh">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj.filters">
+      <Filter>Source Files</Filter>
+    </None>
     <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj">
       <Filter>Source Files</Filter>
     </None>
@@ -93,12 +99,6 @@
       <Filter>Source Files</Filter>
     </None>
     <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj.user">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj.filters">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
