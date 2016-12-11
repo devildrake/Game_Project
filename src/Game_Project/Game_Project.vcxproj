@@ -21,11 +21,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Assert.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Color.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaDificil.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaFacil.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaMedio.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameEngine.hh" />
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameScene.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Grid.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\GUI.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\ID.hh" />
@@ -42,6 +38,9 @@
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\TimeManager.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Transform.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Window.hh" />
+    <ClInclude Include="EscenaDificil.hh" />
+    <ClInclude Include="EscenaFacil.hh" />
+    <ClInclude Include="EscenaMedio.hh" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\Desktop\JODER\CandyCrush.vcxproj" />
@@ -51,10 +50,12 @@
     <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj.filters" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\JODER\GameScene.cc" />
     <ClCompile Include="..\..\..\..\..\Desktop\JODER\Grid.cc" />
     <ClCompile Include="..\..\..\..\..\Desktop\JODER\main.cc" />
     <ClCompile Include="..\..\..\..\..\Desktop\JODER\mainMenu.cpp" />
+    <ClCompile Include="EscenaDificil.cpp" />
+    <ClCompile Include="EscenaFacil.cpp" />
+    <ClCompile Include="EscenaMedio.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A425A1CB-F148-4A71-BBCF-EB283D235BC4}</ProjectGuid>

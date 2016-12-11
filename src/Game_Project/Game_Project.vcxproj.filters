@@ -15,25 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Assert.hh">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Window.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Color.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaDificil.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaFacil.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\EscenaMedio.hh">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameScene.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\Grid.hh">
@@ -84,6 +69,18 @@
     <ClInclude Include="..\..\..\..\..\Desktop\JODER\GameEngine.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\JODER\Assert.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaMedio.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaFacil.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaDificil.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\Desktop\JODER\Game_Project.vcxproj">
@@ -103,9 +100,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\JODER\GameScene.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\Desktop\JODER\Grid.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -113,6 +107,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Desktop\JODER\mainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaFacil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaMedio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaDificil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
